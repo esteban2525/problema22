@@ -23,13 +23,18 @@ public class Event {
 
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
+
 public String getNombre() { return nombre; }
 public void setNombre(String nombre) { this.nombre = nombre; }
+
 public String getFecha() { return fecha; }
 public void setFecha(String fecha) { this.fecha = fecha; }
+
 public int getDuracion() { return duracion; }
 public void setDuracion(int duracion) { this.duracion = duracion; }
+
 public String getModalidad() { return modalidad; }
 public void setModalidad(String modalidad) { this.modalidad = modalidad; }
+
 public List<Long> getStudentIds() { return studentIds; }
 public void setStudentIds(List<Long> studentIds) { this.studentIds =studentIds; }
